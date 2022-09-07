@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#37b0ae"/>
+      <stop offset="1" stop-color="#228993"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_15393" data-name="Group 15393" transform="translate(0)">
+    <rect id="Rectangle_1005" data-name="Rectangle 1005" width="24" height="24" transform="translate(0)" fill="none"/>
+    <g id="fi-rr-calendar" transform="translate(2 2)">
+      <path id="Path_464" data-name="Path 464" d="M15.833,1.667H15V.833a.833.833,0,1,0-1.667,0v.833H6.667V.833A.833.833,0,0,0,5,.833v.833H4.167A4.172,4.172,0,0,0,0,5.833v10A4.172,4.172,0,0,0,4.167,20H15.833A4.172,4.172,0,0,0,20,15.833v-10A4.172,4.172,0,0,0,15.833,1.667ZM1.667,5.833a2.5,2.5,0,0,1,2.5-2.5H15.833a2.5,2.5,0,0,1,2.5,2.5v.833H1.667Zm14.167,12.5H4.167a2.5,2.5,0,0,1-2.5-2.5v-7.5H18.333v7.5A2.5,2.5,0,0,1,15.833,18.333Z" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_187" data-name="Ellipse 187" cx="1.25" cy="1.25" r="1.25" transform="translate(8.75 11.25)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_188" data-name="Ellipse 188" cx="1.25" cy="1.25" r="1.25" transform="translate(4.583 11.25)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_189" data-name="Ellipse 189" cx="1.25" cy="1.25" r="1.25" transform="translate(12.917 11.25)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1038 @@
+/* 
+============================================================
+My Custom variable
+============================================================
+*/
+:root
+{
+    /* Google Font Family Variables */
+    --first-font-family: 'Inter', sans-serif;
+    --second-font-family: 'Kavoon', cursive;
+    --third-font-family: 'Montserrat', sans-serif;
+    --fourth-font-family: 'Rubik', sans-serif;
+
+    /* Font Size Variables */
+    --first-font-size-12: 12px;
+    --second-font-size-14: 14px;
+    --third-font-size-16: 16px;
+    --fourth-font-size-20: 20px;
+    --fifth-font-size-32: 32px;
+
+    /* Line spacing Variables */
+    --first-line-spacing-14: 14px;
+    --second-line-spacing-15: 15px;
+    --third-line-spacing-16: 16px;
+    --fourth-line-spacing-17: 17px;
+    --fifth-line-spacing-19: 19px;
+    --sixth-line-spacing-21: 21px;
+    --seventh-line-spacing-24: 24px;
+    --eighth-line-spacing-27: 27px;
+    --nineth-line-spacing-39: 39px;
+
+    /* Font weight Variables */
+    --first-font-weight-800: 800px;
+    --second-font-weight-bold: bold;
+    --third-font-weight-medium: medium;
+    --fourth-font-weight-normal: normal;
+
+    /* Font style Variables */
+    --first-font-style-normal: normal;
+
+    /* Charecter Spacing Variables */
+    --first-character-spacing-0: 0px;
+}
+
+/* 
+=============================================================
+header section design css 
+=============================================================
+*/
+#header-section
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 12px #0000001F;
+    opacity: 1;
+}
+
+/* .search_>ul>li>input
+{
+    border: 1px solid var(---b4b4b4);
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #B4B4B4;
+    border-radius: 6px;
+    opacity: 1;
+    width: 609px;
+} */
+
+.search_ .navbar-nav .nav-item input
+{
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #B4B4B4;
+    border-radius: 6px;
+    width: 550px;
+    font-family: var(--third-font-family);
+    margin-left: 10px;
+    background-image: url("/Images/search_icon-24px.svg");
+    background-position: 515px;
+}
+
+.navbar-brand>img
+{
+    width: 166px;
+    height: 48px;
+}
+
+.ARNumber
+{
+    font-size: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--fifth-font-size-32);
+    font-family: var(--third-font-family);
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+}
+
+.starIcon1
+{
+    width: 15px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.liketext
+{
+    letter-spacing: var(--first-character-spacing-0);
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 600;
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+    color: #888888;
+}
+
+.pSantos
+{
+    color: #231F20;
+    letter-spacing: 0px;
+    font-variant: normal;
+    letter-spacing: var(--first-character-spacing-0);
+    font-style: var(--first-font-style-normal);
+    font-weight: var(--fourth-font-weight-normal);
+    font-size: var(--third-font-size-16);
+    font-family: var(--third-font-family);
+}
+
+.modalfooterlike 
+{
+    display: flex;
+    padding: 0.45rem;
+    border-top: 1px solid #dee2e6;
+    /* border-bottom-right-radius: calc(0.3rem - 1px); */
+    /* border-bottom-left-radius: calc(0.3rem - 1px); */
+}
+
+.rowfirst
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+    font-family: var(--third-font-family);
+    margin-top: 10px;    
+    font-weight: var(--second-font-weight-bold);
+}
+
+.rowsecond
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    padding: 10px;    
+    margin-top: 10px;    
+    font-weight: var(--second-font-weight-bold);
+
+}
+
+.rowsecond .paragraphContent
+{
+    font-style: var(--first-font-style-normal);
+    font-weight: 300;
+    font-size: var(--second-font-size-14);
+    font-family: var(--fourth-font-family);
+    letter-spacing: var(--first-character-spacing-0);
+    letter-spacing: 0px;
+    color: #444444;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.BtnReview
+{
+    width: 100%;
+    height: 40px;
+    letter-spacing: var(--first-character-spacing-0);
+    text-align: center;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 600;
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+    color: #FFFFFF;
+    background-position: 100px;
+    background-image: url("/Images/Plus-Icon.svg");
+    border: 1px solid #228993;
+    border-radius: 5px;
+}
+
+.columnthree .ratingIcon>.rNumber
+{
+    font-style: var(--first-font-style-normal);
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--third-font-size-16);
+    font-family: var(--third-font-family);
+    letter-spacing: var(--first-character-spacing-0);
+    letter-spacing: 0px;
+    color: #231F20;
+    opacity: 1;
+}
+
+.paragraphContent
+{
+    margin-top: -10px;
+    opacity: 1; 
+    color: #444444;
+    font-style: var(--first-font-style-normal);
+    font-size: var(--second-font-size-14);
+    font-family: var(--fourth-font-family);
+    letter-spacing: var(--first-character-spacing-0);
+}
+
+.item123
+{
+    height: 70px;
+    width: 110px;
+}
+
+.likeText
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #888888;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 600;
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+}
+
+.commentText
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #888888;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 600;
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+}
+
+.columnfour .paragraphContent 
+{
+    margin-top: -10px;
+    opacity: 1;
+    color: #444444;
+    font-style: var(--first-font-style-normal);
+    font-size: var(--second-font-size-14);
+    font-family: var(--fourth-font-family);
+    letter-spacing: var(--first-character-spacing-0);
+}
+
+.columnfour .item123
+{
+    height: 82px;
+    width: 110px;
+}
+
+.columnfour #moreplus
+{
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.columnfour .item123>a
+{
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.boldText
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--third-font-size-16);
+    font-family: var(--third-font-family);
+}
+
+.BtnReview:hover
+{
+    opacity: 0.8;
+}
+
+/* 
+=====================================================================
+Column One Port Of santos Design Part CSS
+=====================================================================
+*/
+.columnone
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    height: auto;
+    width: 100%;
+    padding: 10px 10px 0px 10px; 
+}
+
+.portSantos
+{
+letter-spacing: var(--first-character-spacing-0);
+font-style: var(--first-font-style-normal);
+font-variant: normal;
+font-weight: var(--second-font-weight-bold);
+font-size: 20px;
+font-family: var(--third-font-family);
+color: #231F20;
+opacity: 1;
+}
+
+.santosBrazil
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: var(---888888);
+    color: #888888;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--third-font-weight-medium);
+    font-size: var(--second-font-size-14);
+    font-family: var(--third-font-family);
+    position: absolute;
+    top: 140px;
+    left: 125px;
+}
+
+.columnone>.menuList>ul
+{
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.columnone>.menuList .item1
+{
+    font-style: var(--first-font-style-normal);
+    font-family: var(--third-font-family);
+    font-size: var(--second-font-size-14);
+    font-weight: var(--second-font-weight-bold);
+    letter-spacing: var(--first-character-spacing-0);
+    color: #228993;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #228993;
+    opacity: 1;
+}
+
+.columnone>.menuList .item2,
+.columnone>.menuList .item3
+{
+    font-style: var(--first-font-style-normal);
+    font-family: var(--third-font-family);
+    font-size: var(--second-font-size-14);
+    font-weight: var(--second-font-weight-bold);
+    letter-spacing: var(--first-character-spacing-0);
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+    color: #444444;
+    opacity: 1;
+}
+
+/*
+================================================
+Row First Average Rating Design CSS
+================================================
+*/
+.rowfirst
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 10px;
+    font-family: var(--third-font-family);
+    margin-top: 10px;    
+    font-weight: var(--second-font-weight-bold);
+}
+
+.ARating
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--third-font-size-16);
+    font-family: var(--third-font-family);
+}
+
+.ARNumber
+{
+    font-size: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font-size:var(--fourth-font-size-20);
+    font-family: var(--third-font-family);
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    padding: 10px;
+}
+
+.nReview
+{
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--fourth-font-weight-normal);
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+    color: #888888;
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+}
+
+/*
+================================================
+Row Second Add a review Design CSS Part
+================================================
+*/
+.rowsecond
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    padding: 10px;    
+    margin-top: 10px;    
+    font-weight: var(--second-font-weight-bold);
+}
+
+.servicesPort
+{
+    color: #231F20;
+    opacity: 1;
+    letter-spacing: var(--first-character-spacing-0);
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font: var(--third-font-size-16);
+    font-family: var(--fourth-font-family);
+}
+
+.sParagraphContent
+{
+    letter-spacing: var(--first-character-spacing-0);
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 300;
+    font-size: var(--second-font-size-14);
+    font-family: var(--fourth-font-family);
+    color: #444444;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.BtnReview
+{
+    width: 100%;
+    height: 40px;
+    background: #228993 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    letter-spacing: var(--first-character-spacing-0);
+    text-align: center;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 600;
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+    color: #FFFFFF;
+    background-position: 100px;
+    background-image: url("/Images/Plus-Icon.svg");
+    border: 1px solid #228993;
+}
+
+/*
+========================================================
+People Working At This Port Design CSS Part
+========================================================
+*/
+.rowthird
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+    margin-top: 10px; 
+    padding: 15px;
+}
+
+.peopleWorkPort
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    opacity: 1;
+    margin-bottom: 15px;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--third-font-size-16);
+    font-family: var(--third-font-family);
+}
+
+.profileImages
+{
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+}
+
+.BtnConnect
+{
+    background: #228993 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color:#FFFFFF;
+    border: 1px solid #228993;
+    border-radius: 5px;
+}
+
+.btnMessage
+{
+    
+    border: 1px solid #228993;
+    opacity: 1;
+    color: #228993;
+    border: 1px solid #228993;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.BtnConnect,
+.btnMessage
+{
+    width: 150px;
+    height: 40px;
+}
+
+.userProfileName
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--second-font-size-14);
+    font-family: var(--third-font-family);
+}
+
+.userPositionName
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #888888;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 300;
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+}
+
+/*
+======================================================
+Sailors Currently On this Port
+======================================================
+*/
+.rowfourth
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/*
+==========================================================
+Upload Photos And Documents Design Part CSS 
+==========================================================
+*/
+.columntwo
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    margin-top: 10px; 
+    padding: 10px;
+}
+
+.uploadPhotosDocuments
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--third-font-size-16);
+    font-family: var(--third-font-family);
+    margin-top: 10px;
+}
+
+.carouselitems>.item #img1,
+.carouselitems>.item #img2,
+.carouselitems>.item #img3,
+.carouselitems>.item #img4,
+.carouselitems>.item #img5
+{
+    width: 165px;
+    height: 120px;
+    border-radius: 4px;
+}
+
+/*
+===============================================================
+Column Three Single Profile design CSS Part
+===============================================================
+*/
+.columnthree
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.userRonald
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--second-font-size-14);
+    font-family: var(--third-font-family);
+}
+
+.btnEdit
+{
+    border: 1px solid #228993;
+    border-radius: 4px;
+    text-align: center;
+    font-style: var(--first-font-style-normal);
+    font-weight: 600;
+    font-family: var(--third-font-family);
+    font-size: var(--first-font-size-12);
+    letter-spacing: var(--first-character-spacing-0);
+    color: #228993;
+    width: 140px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: white;
+    float: right;
+}
+
+.userProfileName1
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--second-font-size-14);
+    font-family: var(--third-font-family);
+}
+
+.overAllRating
+{
+    letter-spacing: var(--first-character-spacing-0);
+    text-align: center;
+    color: #231F20;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--third-font-weight-medium);
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+}
+
+.userPositionName1
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #888888;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 300;
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+}
+
+.viewedDate
+{
+    padding: 10px;
+}
+
+
+/*
+======================================================
+Column Four People sailed on Port CSS Design
+======================================================
+*/
+.columnfour
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    margin-top: 10px; 
+    padding: 10px;
+}
+
+.peopleS
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--third-font-size-16);
+    font-family: var(--third-font-family);
+}
+
+.peopleS>.sNumber
+{
+    color: #228993;
+}
+
+.sortBY
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--fourth-font-weight-normal);
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+    float: right;
+    position: relative;    
+}
+
+.recentlyAdded
+{
+    letter-spacing: var(--first-character-spacing-0);
+    text-align: right;
+    color: #228993;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 600;
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+}
+
+.subcontent
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--third-font-size-16);
+    font-family: var(--third-font-family);
+}
+
+.readMore
+{
+    float: right;
+}
+
+.columnfour .rNumber {
+    font-style: var(--first-font-style-normal);
+    font-weight: var(--second-font-weight-bold);
+    font-size: var(--third-font-size-16);
+    font-family: var(--third-font-family);
+    letter-spacing: var(--first-character-spacing-0);
+    letter-spacing: 0px;
+    color: #231F20;
+    opacity: 1;
+}
+
+/*
+=============================================================
+Model card CSS 
+=============================================================
+*/
+.modelWidth
+{
+    width: 100%;
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.modelWidth
+{
+    width: 100%;
+    height: auto;
+}
+
+.modal-dialog {
+    max-width: 720px;
+    margin: 1.75rem auto;
+}
+
+.portOfSantos
+{
+letter-spacing: var(--first-character-spacing-0);
+color: #231F20;
+font-style: var(--first-font-style-normal);
+font-variant: normal;
+font-weight: var(--second-font-weight-bold);
+font-size: var(--fourth-font-size-20);
+font-family: var(--third-font-family);
+}
+
+.santosBrazil11
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #888888;
+    opacity: 1;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--third-font-weight-medium);
+    font-size: var(--second-font-size-14);
+    font-family: var(--third-font-family);
+}
+
+.secondOfficer
+{
+    width: 320px;
+    height: 40px;
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--fourth-font-weight-normal);
+    font-size: var(--third-font-size-16);
+    font-family: var(--fourth-font-family);
+    opacity: 1;
+    background-image: url("/Images/Group 2066.svg");
+    background-repeat: no-repeat;
+    background-position: 300px;
+}
+
+.secondOfficer1
+{
+    width: 320px;
+    height: 40px;
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--fourth-font-weight-normal);
+    font-size: var(--third-font-size-16);
+    font-family: var(--fourth-font-family);
+    opacity: 1;
+    background-image: url("/Images/Group 2099.svg");
+    background-repeat: no-repeat;
+    background-position: 290px;
+}
+
+.secondOfficer,
+.secondOfficer1
+{
+    margin-top: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: 1px solid #228993;
+
+}
+
+.rankPort
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #888888;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 300;
+    font-size: var(--first-font-size-12);
+    font-family: var(--fourth-font-family);
+}
+
+.circle1
+{
+    width: 16px;
+    height: 16px;
+    /* background: transparent 0% 0% no-repeat padding-box; */
+    /* border: 1px solid #228993; */
+    /* opacity: 1; */
+}
+
+.shoreLeave
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #888888;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 300;
+    font-size: var(--third-font-size-16);
+    font-family: var(--fourth-font-family);
+    border-bottom: 1px solid #888888;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    margin-top: 30px;
+}
+
+.authorities
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #888888;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 300;
+    font-size: var(--third-font-size-16);
+    font-family: var(--fourth-font-family);
+    border-bottom: 1px solid #888888;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    margin-top: 30px;
+}
+
+.overAllRating1
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #231F20;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--third-font-weight-medium);
+    font-size: var(--third-font-size-16);
+    font-family: var(--fourth-font-family);
+}
+
+.ratingIcon,
+.photoDocuments,
+.Submitbt
+{
+    margin-top: 30px;
+}
+
+.personalExperience
+{
+    letter-spacing: var(--first-character-spacing-0);
+    color: #888888;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 300;
+    font-size: var(--third-font-size-16);
+    font-family: var(--fourth-font-family);
+    border-bottom: 1px solid #888888;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.addPhotoDocuments
+{
+    letter-spacing: var(--first-character-spacing-0);
+    letter-spacing: 0px;
+    color: #231F20;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: var(--third-font-weight-medium);
+    font-size: var(--third-font-size-16);
+    font-family: var(--fourth-font-family);
+    /* margin-top: 20px; */
+}
+
+.dragImage
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px dashed #B4B4B4;
+    border-radius: 8px;
+    opacity: 1;
+    width: 672px;
+    height: 120px;
+    width: 672px;
+    height: 120px;
+}
+
+.fileUpload
+{
+    width: 662px;
+    height: 110px;
+    border: none;
+    background: transparent;
+    justify-content: space-between;
+
+}
+
+.BtnSubmit
+{
+    width: 149px;
+    height: 40px;
+    background: #228993 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 5px;
+    border: 1px solid #228993;
+}
+
+.view
+{
+    font-size: var(--first-font-size-12);
+    font-style: var(--first-font-style-normal);
+    font-family: var(--third-font-family);
+    font-weight: 600;
+    letter-spacing: var(--first-character-spacing-0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #0074DB;
+    opacity: 1;
+}
+
+.reviewText
+{
+    letter-spacing: var(--first-character-spacing-0);
+    font: normal normal 300 12px/15px Montserrat;
+    color: #888888;
+    font-style: var(--first-font-style-normal);
+    font-variant: normal;
+    font-weight: 300;
+    font-size: var(--first-font-size-12);
+    font-family: var(--third-font-family);
+}
+

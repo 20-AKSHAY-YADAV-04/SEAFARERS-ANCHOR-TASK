@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="comment_icon" transform="translate(-717 -599)">
+    <rect id="Rectangle_793" data-name="Rectangle 793" width="24" height="24" transform="translate(717 599)" fill="none"/>
+    <g id="fi-rr-comment-alt" transform="translate(719 601)">
+      <path id="Path_361" data-name="Path 361" d="M16.667,0H3.333A3.333,3.333,0,0,0,0,3.333v10a3.333,3.333,0,0,0,3.333,3.333H5.75L9.459,19.8a.833.833,0,0,0,1.077,0l3.714-3.136h2.417A3.333,3.333,0,0,0,20,13.333v-10A3.333,3.333,0,0,0,16.667,0Zm1.667,13.333A1.667,1.667,0,0,1,16.667,15H14.25a1.667,1.667,0,0,0-1.076.394L10,18.075,6.827,15.394h0A1.667,1.667,0,0,0,5.75,15H3.333a1.667,1.667,0,0,1-1.667-1.667v-10A1.667,1.667,0,0,1,3.333,1.667H16.667a1.667,1.667,0,0,1,1.667,1.667Z" fill="#888"/>
+      <path id="Path_362" data-name="Path 362" d="M6.833,6.667H11A.833.833,0,0,0,11,5H6.833a.833.833,0,0,0,0,1.667Z" transform="translate(-1 -0.833)" fill="#888"/>
+      <path id="Path_363" data-name="Path 363" d="M15.167,9H6.833a.833.833,0,0,0,0,1.667h8.333a.833.833,0,1,0,0-1.667Z" transform="translate(-1 -1.5)" fill="#888"/>
+      <path id="Path_364" data-name="Path 364" d="M15.167,13H6.833a.833.833,0,0,0,0,1.667h8.333a.833.833,0,1,0,0-1.667Z" transform="translate(-1 -2.167)" fill="#888"/>
+    </g>
+  </g>
+</svg>
